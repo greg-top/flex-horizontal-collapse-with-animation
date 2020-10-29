@@ -14,7 +14,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-basis: 100px;
-  flex-grow: 0; /*default*/
+  flex-grow: 0;
 
   transition: flex-grow 0.5s ease;
 }
@@ -26,7 +26,7 @@ body {
   height: 0; /*a11y*/
   width: 0;
   transition: all 1s ease-in;
-  transition-property: opacity, height;
+  transition-property: opacity;
   overflow-x: hidden;
   overflow-y: scroll;
 }
